@@ -90,6 +90,18 @@ open import Data.Nat
   using (
     ℕ
   )
+open import Function
+  using (
+    _$_
+  )
+open import Data.Product
+  using (
+    ∃
+  )
+open import Relation.Nullary
+  using (
+    ¬_
+  )
 \end{code}
 
 \begin{abstract}
@@ -102,6 +114,22 @@ ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u
 \begin{code}
 ℂ : Set
 ℂ = {!!}
+\end{code}
+
+\section{la'o zoi.\ \F{\AgdaUnderscore{}>\AgdaUnderscore}
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{>} \B b\ .zoi.\ gi la'oi .\B a.\ zmadu la'oi .\B b.
+
+\begin{code}
+_>_ : ℂ → ℂ → Set
+_>_ = {!!}
+\end{code}
+
+\section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}.}
+ni'o la'o zoi.\ \F{∣\AgdAUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
+
+\begin{code}
+∣_∣ : ℂ → ℂ
+∣_∣ = {!!}
 \end{code}
 
 \section{la'oi .\F{mf}.}
@@ -121,6 +149,6 @@ ni'o ro da zo'u ga jo ctaipe lo me'oi .\F{MB}.\ be da gi da cmima le co'e Coke m
 
 \begin{code}
 MB : ℂ → Set
-MB = {!!}
+MB c = ∃ $ λ m → ¬_ $ ∃ $ λ n → (∣ mf c n ∣) > ∣ mf c m ∣
 \end{code}
 \end{document}
