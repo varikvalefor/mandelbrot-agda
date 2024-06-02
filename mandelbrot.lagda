@@ -83,6 +83,15 @@
 \begin{document}
 \maketitle
 
+\section{le vrici}
+
+\begin{code}
+open import Data.Nat
+  using (
+    ℕ
+  )
+\end{code}
+
 \begin{abstract}
 ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi lo jai filri'a be tu'a le se cmima Coke me'oi .MANDELBROT.
 \end{abstract}
@@ -93,6 +102,18 @@ ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u
 \begin{code}
 ℂ : Set
 ℂ = {!!}
+\end{code}
+
+\section{la'oi .\F{mf}.}
+ni'o ga jonai\ldots
+\begin{itemize}
+\item ga je la'oi .\B n.\ du la'o zoi.\ \IC{ℕ.zero}\ .zoi.\ gi ko'a goi la'o zoi.\ \F{mf} \B c \B n sumji ma lo tenfa be la'oi .\B c.\ bei li re gi
+\item ko'a sumji ma lo tenfa be fi li re bei lo mu'oi zoi.\ \F{mf} \B c\ .zoi.\ be lo lidne be la'oi .\B n.
+\end{itemize}
+
+\begin{code}
+mf : ℂ → ℕ → ℂ
+mf = {!!}
 \end{code}
 
 \section{la'oi .\F{MB}.}
