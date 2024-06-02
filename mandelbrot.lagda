@@ -84,6 +84,7 @@
 
 \begin{abstract}
 ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi lo jai filri'a be tu'a le se cmima Coke me'oi .MANDELBROT.
+\end{abstract}
 
 \section{la'oi .\F ℂ.}
 ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u
