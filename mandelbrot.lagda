@@ -116,7 +116,7 @@ ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u
 ℂ = {!!}
 \end{code}
 
-\section{la'o zoi.\ \F{\AgdaUnderscore{}>\AgdaUnderscore}
+\section{la'o zoi.\ \F{\AgdaUnderscore{}>\AgdaUnderscore}\ .zoi.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{>} \B b\ .zoi.\ gi la'oi .\B a.\ zmadu la'oi .\B b.
 
 \begin{code}
@@ -125,7 +125,7 @@ _>_ = {!!}
 \end{code}
 
 \section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}.}
-ni'o la'o zoi.\ \F{∣\AgdAUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
+ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
 
 \begin{code}
 ∣_∣ : ℂ → ℂ
