@@ -154,6 +154,14 @@ _^_ : ℂ → ℂ → ℂ
 _^_ = {!!}
 \end{code}
 
+\section{la'o zoi.\ \F{ℕ→ℂ}\ .zoi.}
+ni'o la'o zoi.\ \F{ℕ→ℂ} \B n\ .zoi.\ co'e du la'oi .\B n.
+
+\begin{code}
+ℕ→ℂ : ℕ → ℂ
+ℕ→ℂ = {!!}
+\end{code}
+
 \section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ .zoi.}
 ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
 
