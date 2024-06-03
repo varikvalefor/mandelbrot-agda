@@ -132,7 +132,7 @@ _>_ : ℝ → ℝ → Set
 _>_ = {!!}
 \end{code}
 
-\section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}.}
+\section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ .zoi.}
 ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
 
 \begin{code}
