@@ -100,6 +100,7 @@ open import Function
   )
 open import Data.Product
   using (
+    _×_;
     ∃
   )
 open import Relation.Nullary
@@ -117,11 +118,11 @@ ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u... jenai zo'e
 \end{code}
 
 \section{la'oi .\F ℂ.}
-ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u
+ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u  .i la'o zoi.\ \IC{\AgdaUnderscore{},\AgdaUnderscore} \B a \B b\ .zoi.\ poi ke'a ctaipe la'oi .\F ℂ.\ cu sumji la'oi .\B a.\ lo pilji be la'oi .\B b.\ bei lo tenfa be li re bei li pa fi'u re
 
 \begin{code}
 ℂ : Set
-ℂ = {!!}
+ℂ = ℝ × ℝ
 \end{code}
 
 \section{la'o zoi.\ \F{\AgdaUnderscore{}>\AgdaUnderscore}\ .zoi.}
