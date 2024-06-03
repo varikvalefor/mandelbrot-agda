@@ -172,7 +172,7 @@ ni'o ga jonai\ldots
 
 \begin{code}
 mf : ℂ → ℕ → ℂ
-mf c ℕ.zero = {!!}
+mf c ℕ.zero = c
 mf c (ℕ.suc n) = {!!}
 \end{code}
 
