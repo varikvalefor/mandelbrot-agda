@@ -172,7 +172,8 @@ ni'o ga jonai\ldots
 
 \begin{code}
 mf : ℂ → ℕ → ℂ
-mf = {!!}
+mf c ℕ.zero = {!!}
+mf c (ℕ.suc n) = {!!}
 \end{code}
 
 \section{la'oi .\F{MB}.}
