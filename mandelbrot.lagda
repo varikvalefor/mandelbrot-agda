@@ -177,9 +177,10 @@ ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
 
 \begin{code}
 ∣_∣ : ℂ → ℝ
-∣_∣ (a , b) = proj₁ $ ((a' ^ 2ℂ) + (b' ^ 2ℂ)) ^ {!!}
+∣_∣ (a , b) = proj₁ $ ((a' ^ 2ℂ) + (b' ^ 2ℂ)) ^ 1/2ℂ
   where
   2ℂ = ℕ→ℂ 2
+  1/2ℂ = frinu (ℕ→ℂ 1) (ℕ→ℂ 2) {!!}
   a' = {!!}
   b' = {!!}
 \end{code}
