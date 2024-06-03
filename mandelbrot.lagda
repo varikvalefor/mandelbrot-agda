@@ -143,8 +143,8 @@ ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
 \section{la'oi .\F{mf}.}
 ni'o ga jonai\ldots
 \begin{itemize}
-\item ga je la'oi .\B n.\ du la'o zoi.\ \IC{ℕ.zero}\ .zoi.\ gi ko'a goi la'o zoi.\ \F{mf} \B c \B n sumji ma lo tenfa be la'oi .\B c.\ bei li re gi
-\item ko'a sumji ma lo tenfa be fi li re bei lo mu'oi zoi.\ \F{mf} \B c\ .zoi.\ be lo lidne be la'oi .\B n.
+	\item ga je la'oi .\B n.\ du la'o zoi.\ \IC{ℕ.zero}\ .zoi.\ gi ko'a goi la'o zoi.\ \F{mf} \B c \B n sumji ma lo tenfa be la'oi .\B c.\ bei li re gi
+	\item ko'a sumji ma lo tenfa be fi li re bei lo mu'oi zoi.\ \F{mf} \B c\ .zoi.\ be lo lidne be la'oi .\B n.
 \end{itemize}
 
 \begin{code}
