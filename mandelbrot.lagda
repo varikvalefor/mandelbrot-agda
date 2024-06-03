@@ -101,7 +101,9 @@ open import Function
   )
 open import Data.Product
   using (
+    proj₁;
     _×_;
+    _,_;
     ∃
   )
 open import Relation.Nullary
@@ -155,7 +157,7 @@ ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
 
 \begin{code}
 ∣_∣ : ℂ → ℝ
-∣_∣ = {!!}
+∣_∣ (a , b) = proj₁ $ (((a , {!!}) ^ {!!}) + ((b , {!!}) ^ {!!})) ^ {!!}
 \end{code}
 
 \section{la'oi .\F{mf}.}
