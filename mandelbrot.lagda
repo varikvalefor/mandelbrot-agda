@@ -91,6 +91,8 @@ ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi lo jai filri'a be t
 \section{le vrici}
 
 \begin{code}
+{-# OPTIONS --safe #-}
+
 open import Data.Nat
   using (
     ℕ
