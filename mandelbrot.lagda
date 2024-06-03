@@ -108,6 +108,14 @@ open import Relation.Nullary
 ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi lo jai filri'a be tu'a le se cmima Coke me'oi .MANDELBROT.
 \end{abstract}
 
+\section{la'oi .\F ℝ.}
+ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u... jenai zo'e
+
+\begin{code}
+ℝ : Set
+ℝ = {!!}
+\end{code}
+
 \section{la'oi .\F ℂ.}
 ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u
 
@@ -120,7 +128,7 @@ ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{>} \B b\ .zoi.\ gi la'oi .\B a.\ zmadu la'oi .\B b.
 
 \begin{code}
-_>_ : ℂ → ℂ → Set
+_>_ : ℝ → ℝ → Set
 _>_ = {!!}
 \end{code}
 
@@ -128,7 +136,7 @@ _>_ = {!!}
 ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
 
 \begin{code}
-∣_∣ : ℂ → ℂ
+∣_∣ : ℂ → ℝ
 ∣_∣ = {!!}
 \end{code}
 
