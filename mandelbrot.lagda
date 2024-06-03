@@ -113,7 +113,7 @@ open import Relation.Nullary
 \end{code}
 
 \section{la'oi .\F ℝ.}
-ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u... jenai zo'e
+ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u\ldots{}\ jenai zo'e
 
 \begin{code}
 ℝ : Set
