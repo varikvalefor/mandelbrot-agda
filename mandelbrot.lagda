@@ -99,6 +99,7 @@ open import Data.Nat
   )
 open import Function
   using (
+    _∋_;
     _$_
   )
 open import Data.Product
@@ -144,6 +145,14 @@ ni'o la'o zoi.\ \B a \OpF + \B b\ .zoi.\ sumji la'oi .\B a.\ la'oi .\B b.
 \begin{code}
 _+_ : ℂ → ℂ → ℂ
 _+_ = {!!}
+\end{code}
+
+\section{la \F{frinu}}
+ni'o ga je la'o zoi.\ \F{frinu} \B a \B b \B c\ .zoi.\ frinu la'oi .\B a.\ la'oi .\B b.\ gi la'oi .\B c.\ ctiape le su'u la'oi .\B b.\ na du li no
+
+\begin{code}
+frinu : ℂ → ℂ → Set ∋ {!!} → ℂ
+frinu = {!!}
 \end{code}
 
 \section{la'o zoi.\ \F{\AgdaUnderscore{}\textasciicircum\AgdaUnderscore}\ .zoi.}
