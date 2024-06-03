@@ -118,20 +118,20 @@ ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u... jenai zo'e
 ℝ = {!!}
 \end{code}
 
-\section{la'oi .\F ℂ.}
-ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u  .i la'o zoi.\ \IC{\AgdaUnderscore{},\AgdaUnderscore} \B a \B b\ .zoi.\ poi ke'a ctaipe la'oi .\F ℂ.\ cu sumji la'oi .\B a.\ lo pilji be la'oi .\B b.\ bei lo tenfa be li re bei li pa fi'u re
-
-\begin{code}
-ℂ : Set
-ℂ = ℝ × ℝ
-\end{code}
-
 \section{la'o zoi.\ \F{\AgdaUnderscore{}>\AgdaUnderscore}\ .zoi.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{>} \B b\ .zoi.\ gi la'oi .\B a.\ zmadu la'oi .\B b.
 
 \begin{code}
 _>_ : ℝ → ℝ → Set
 _>_ = {!!}
+\end{code}
+
+\section{la'oi .\F ℂ.}
+ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u  .i la'o zoi.\ \IC{\AgdaUnderscore{},\AgdaUnderscore} \B a \B b\ .zoi.\ poi ke'a ctaipe la'oi .\F ℂ.\ cu sumji la'oi .\B a.\ lo pilji be la'oi .\B b.\ bei lo tenfa be li re bei li pa fi'u re
+
+\begin{code}
+ℂ : Set
+ℂ = ℝ × ℝ
 \end{code}
 
 \section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ .zoi.}
