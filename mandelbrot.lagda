@@ -83,6 +83,10 @@
 \begin{document}
 \maketitle
 
+\begin{abstract}
+ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi lo jai filri'a be tu'a le se cmima Coke me'oi .MANDELBROT.
+\end{abstract}
+
 \section{le vrici}
 
 \begin{code}
@@ -103,10 +107,6 @@ open import Relation.Nullary
     ¬_
   )
 \end{code}
-
-\begin{abstract}
-ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi lo jai filri'a be tu'a le se cmima Coke me'oi .MANDELBROT.
-\end{abstract}
 
 \section{la'oi .\F ℝ.}
 ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u... jenai zo'e
