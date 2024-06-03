@@ -85,6 +85,7 @@
 \maketitle
 
 \begin{abstract}
+\noindent
 ni'o bau la .lojban.\ joi la'oi .Agda.\ la .varik.\ cu ciksi lo jai filri'a be tu'a le se cmima Coke me'oi .MANDELBROT.
 \end{abstract}
 
