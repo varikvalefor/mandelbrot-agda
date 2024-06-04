@@ -114,6 +114,10 @@ open import Relation.Nullary
   using (
     ¬_
   )
+open import Relation.Binary.PropositionalEquality
+  using (
+    _≡_
+  )
 \end{code}
 
 \section{la'oi .\F ℝ.}
@@ -152,7 +156,7 @@ _+_ = {!!}
 ni'o ga je la'o zoi.\ \F{frinu} \B a \B b \B c\ .zoi.\ frinu la'oi .\B a.\ la'oi .\B b.\ gi la'oi .\B c.\ ctiape le su'u la'oi .\B b.\ na du li no
 
 \begin{code}
-frinu : ℂ → ℂ → Set ∋ {!!} → ℂ
+frinu : ℂ → (d : ℂ) → ¬_ $ {!!} ≡ d → ℂ
 frinu = {!!}
 \end{code}
 
