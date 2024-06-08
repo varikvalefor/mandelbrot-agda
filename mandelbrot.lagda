@@ -157,6 +157,15 @@ ni'o ro da zo'u da ctaipe la'oi .\F ℂ.\ jo cu lujna'u  .i la'o zoi.\ \IC{\Agda
 ℂ = ℝ × ℝ
 \end{code}
 
+\section{la'o zoi.\ \F{\AgdaUnderscore{}≈\AgdaUnderscore}\ .zoi.}
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{≈} \B b\ .zoi.\ gi la'oi .\B a.\ namcu du la'oi .\B b.
+
+\begin{code}
+_≈_ : ℂ → ℂ → Set
+_≈_ = {!!}
+\end{code}
+
+
 \section{la'o zoi.\ \F{AgdaUnderscore{}+\AgdaUnderscore}\ .zoi.}
 ni'o la'o zoi.\ \B a \OpF + \B b\ .zoi.\ sumji la'oi .\B a.\ la'oi .\B b.
 
