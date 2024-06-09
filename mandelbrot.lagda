@@ -210,8 +210,10 @@ ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
   where
   2ℂ = ℕ→ℂ 2
   1/2ℂ = frinu (ℕ→ℂ 1) (ℕ→ℂ 2) {!!}
-  a' = {!!}
-  b' = {!!}
+  ℝ→ℂ : ℝ → ℂ
+  ℝ→ℂ = {!!}
+  a' = ℝ→ℂ a
+  b' = ℝ→ℂ b
 \end{code}
 
 \section{la'oi .\F{mf}.}
