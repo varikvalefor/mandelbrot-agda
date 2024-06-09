@@ -201,6 +201,14 @@ ni'o la'o zoi.\ \F{ℕ→ℂ} \B n\ .zoi.\ co'e du la'oi .\B n.
 ℕ→ℂ = {!!}
 \end{code}
 
+\section{la'o zoi.\ \F{ℝ→ℂ}\ .zoi.}
+ni'o la'o zoi.\ \F{ℝ→ℂ} \B n\ .zoi.\ co'e du la'oi .\B n.
+
+\begin{code}
+ℝ→ℂ : ℝ → ℂ
+ℝ→ℂ = {!!}
+\end{code}
+
 \section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ .zoi.}
 ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
 
@@ -210,8 +218,6 @@ ni'o la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ \B a\ .zoi.\ cu'alni la'oi .\B a.
   where
   2ℂ = ℕ→ℂ 2
   1/2ℂ = frinu (ℕ→ℂ 1) (ℕ→ℂ 2) {!!}
-  ℝ→ℂ : ℝ → ℂ
-  ℝ→ℂ = {!!}
   a' = ℝ→ℂ a
   b' = ℝ→ℂ b
 \end{code}
