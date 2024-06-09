@@ -171,7 +171,10 @@ ni'o la'o zoi.\ \B a \OpF + \B b\ .zoi.\ sumji la'oi .\B a.\ la'oi .\B b.
 
 \begin{code}
 _+_ : ℂ → ℂ → ℂ
-_+_ = {!!}
+_+_ = λ (a₁ , a₂) (b₁ , b₂) → a₁ ℝ+ b₁ , a₂ ℝ+ b₂
+  where
+  _ℝ+_ : ℝ → ℝ → ℝ
+  _ℝ+_ = {!!}
 \end{code}
 
 \section{la \F{frinu}}
