@@ -113,6 +113,7 @@ open import Data.Digit
   )
 open import Data.Product
   using (
+    proj₂;
     proj₁;
     _×_;
     _,_;
@@ -206,7 +207,7 @@ ni'o la'o zoi.\ \F{ℝ→ℂ} \B n\ .zoi.\ co'e du la'oi .\B n.
 
 \begin{code}
 ℝ→ℂ : ℝ → ℂ
-ℝ→ℂ = Function.flip _,_ $ Data.Product.proj₂ $ ℕ→ℂ 0
+ℝ→ℂ = Function.flip _,_ $ proj₂ $ ℕ→ℂ 0
 \end{code}
 
 \section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ .zoi.}
