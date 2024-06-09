@@ -206,7 +206,7 @@ ni'o la'o zoi.\ \F{ℝ→ℂ} \B n\ .zoi.\ co'e du la'oi .\B n.
 
 \begin{code}
 ℝ→ℂ : ℝ → ℂ
-ℝ→ℂ = {!!}
+ℝ→ℂ = Function.flip _,_ {!!}
 \end{code}
 
 \section{la'o zoi.\ \F{∣\AgdaUnderscore{}∣}\ .zoi.}
