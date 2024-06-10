@@ -167,12 +167,12 @@ _≈_ = {!!}
 \end{code}
 
 
-\section{la'o zoi.\ \F{AgdaUnderscore{}+\AgdaUnderscore}\ .zoi.}
+\section{la'o zoi.\ \F{\AgdaUnderscore{}+\AgdaUnderscore}\ .zoi.}
 ni'o la'o zoi.\ \B a \OpF + \B b\ .zoi.\ sumji la'oi .\B a.\ la'oi .\B b.
 
 \begin{code}
 _+_ : ℂ → ℂ → ℂ
-_+_ = λ (a₁ , a₂) (b₁ , b₂) → a₁ ℝ+ b₁ , a₂ ℝ+ b₂
+_+_ = Data.Product.zip _ℝ+_ _ℝ+_
   where
   _ℝ+_ : ℝ → ℝ → ℝ
   _ℝ+_ = {!!}
