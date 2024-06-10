@@ -117,6 +117,7 @@ open import Data.Product
     proj₁;
     _×_;
     _,_;
+    zip
     ∃
   )
 open import Relation.Nullary
@@ -172,7 +173,7 @@ ni'o la'o zoi.\ \B a \OpF + \B b\ .zoi.\ sumji la'oi .\B a.\ la'oi .\B b.
 
 \begin{code}
 _+_ : ℂ → ℂ → ℂ
-_+_ = Data.Product.zip _ℝ+_ _ℝ+_
+_+_ = zip _ℝ+_ _ℝ+_
   where
   _ℝ+_ : ℝ → ℝ → ℝ
   _ℝ+_ = {!!}
