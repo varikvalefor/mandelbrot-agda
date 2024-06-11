@@ -242,6 +242,6 @@ ni'o ro da zo'u ga jo ctaipe lo me'oi .\F{MB}.\ be da gi da cmima le co'e Coke m
 
 \begin{code}
 MB : ℂ → Set
-MB c = ∃ $ λ m → ¬_ $ ∃ $ λ n → (∣ mf c n ∣) > ∣ mf c m ∣
+MB c = ∃ $ λ m → ¬_ $ ∃ $ λ n → ∣ mf c n ∣ > ∣ mf c m ∣
 \end{code}
 \end{document}
